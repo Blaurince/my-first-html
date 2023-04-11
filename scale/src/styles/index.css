@@ -81,11 +81,10 @@ section.container div {
 
 }
 
+@media(max-width: 768px){
 section.container {
-    section.container {
-    display: flex;
-    flex-direction: column;
-    }
+   flex-direction: column;
+}
 }
 
 section.container figure img {
